@@ -1,0 +1,68 @@
+
+
+body, html {
+    outline: none;
+}
+
+.container-login {
+    width: 98vw;;
+    height: 98vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('image/login-background.webp');
+    background-repeat: no-repeat;
+}
+
+.container-login form {
+    width: 350px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-login form fieldset {
+    width: 300px;
+    height: 300px;
+    box-shadow: 5px 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.container-login form,
+.container-login form fieldset {
+    border-radius: 16px;
+}
+
+.container-login form fieldset legend {
+    font-size: 18px;
+    font-weight: bold;
+    font-family: arial;
+    color: white;
+}
+
+.container-login form fieldset label {
+    font-family: arial;
+    font-size: 20px;
+    color: white;
+
+}
+
+.container-login form fieldset input {
+    margin-bottom: 10px ;
+    border-radius: 16px;
+    border: 1px solid lightgrey;
+    background: white;
+    height: 35px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.container-login form fieldset label,
+.container-login form fieldset input {
+    margin-bottom: 8px;
+}
